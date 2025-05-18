@@ -30,7 +30,7 @@ metadata:
   name: observability-stack
   namespace: argocd
 spec:
-  project: observability
+  project: default
   source:
     repoURL: https://github.com/SerhiiK/argocd-test.git
     targetRevision: HEAD
