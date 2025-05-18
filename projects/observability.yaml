@@ -28,11 +28,11 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: observability
-  namespace: observability
+  namespace: argocd
 spec:
   project: observability
   source:
-    repoURL: https://github.com/your-user/your-repo
+    repoURL: https://github.com/SerhiiK/argocd-test
     targetRevision: HEAD
     path: apps/observability
     directory:
